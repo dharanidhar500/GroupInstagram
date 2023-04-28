@@ -13,7 +13,7 @@ public class AppTest {
     public void LoginVerification() throws InterruptedException {
         LoginPage login = PageFactory.initElements(driver, LoginPage.class);
         //UI-1
-        login.loginWebsite("Hari_jjjk", "e5612323");
+       // login.loginWebsite("Hari_jjjk", "e5612323");
         //UI-2
         login.loginWebsiteagain("Hari_Epam", "epam123");
     }

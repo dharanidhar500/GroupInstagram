@@ -20,17 +20,17 @@ public class LoginPage {
         this.driver = driver;
     }
 
-    public void loginWebsite(String username, String password) throws InterruptedException {
-        uname.sendKeys(username);
-        uname.click();
-        Thread.sleep(2000);
-        pname.sendKeys(password);
-        pname.click();
-        Thread.sleep(2000);
-        loginButton.click();
-        loginButton.click();
-        Thread.sleep(2000);
-    }
+//    public void loginWebsite(String username, String password) throws InterruptedException {
+//        uname.sendKeys(username);
+//        uname.click();
+//        Thread.sleep(2000);
+//        pname.sendKeys(password);
+//        pname.click();
+//        Thread.sleep(2000);
+//        loginButton.click();
+//        loginButton.click();
+//        Thread.sleep(2000);
+//    }
 
     public void loginWebsiteagain(String username, String password) throws InterruptedException {
         uname.clear();
